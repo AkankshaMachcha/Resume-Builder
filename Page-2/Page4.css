@@ -1,0 +1,69 @@
+.user-dashboard-body{
+    width: 70vw;
+    padding: 5vh;
+}
+.form.control{
+    margin: 2vh;
+    width: auto;
+}
+.row{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.col-2{
+    width: 20%;
+    display: inline;
+    margin: 2vh;
+}
+.col-md-6{
+    width: 45%;
+    margin: 3vh;
+}
+.textarea-cls{
+    width: 93%;
+    align-items: center;
+    margin-left: 16px;
+    height: 15vh;
+    border: 1px solid #112467;
+}
+
+#add,#sub{
+    padding: 10px;
+    color: white;
+    background-color: #112467;
+    margin: 2vh;
+}
+#btn-2 a  {
+    background-color: #112467;
+    color: white;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    margin: 2vh;
+    border-radius: 5px;
+}
+@media (max-width:480px) {
+    .col-md-6,
+    .col-md-4,
+    .col-2{
+        width: 100%;
+    }
+
+} 
+
+
+@media (max-width:850px) {
+    .col-md-6,
+    .col-md-4,
+    .col-2{
+        width: 100%;
+    }
+    
+}

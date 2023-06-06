@@ -1,0 +1,49 @@
+<div class="row h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5" style="background-color:#A6A6A6;">
+                        <div class="d-flex justify-content-center features_block">
+                            <div><img src="./Images/thumbs-up.png"></div>
+                            <div><h3>Easy Online Resume Builder</h3>
+                            <p>Build your resume Online in Simple steps</p></div>
+                        </div class="container-fluid">
+                        <div class="d-flex justify-content-center features_block">
+                            <div><img src="./Images/notebook.png"></div>
+                            <div><h3>Create Job Winning Resume</h3>
+                            <p>Build your resume Online in Simple steps</p></div>
+                        </div class="container-fluid"><div class="d-flex justify-content-center features_block">
+                            <div><img src="./Images/export.png"></div>
+                            <div><h3>Export to</h3>
+                            <p>Build your resume Online in Simple steps</p></div>
+                        </div class="container-fluid">
+                    </div>
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                    </div>
+                </div>
+
+
+                 <section class="vh-80 row" id="sec-body">
+            <div class="container-fluid h-custom">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+
+                    <div class="col-md-8 col-lg-6 col-xl-5 offset-xl-1 align-items-center">
+                        <div class="col-md-8 col-lg-12 col-xl-12 anibody">
+                            <h1 style="color:#112467; font-size: 8vh;font-weight: bolder;">Build Your Resume With
+                                Creative
+                                Templates</h1>
+                            <p class="font" style="font-size: 4vh;margin-top: 2vh; color:#152b7c;">Create your Resume
+                                using
+                                our wisely designed templates and increase tha chances of getting your dream job.</p>
+                            <button class="btn btn-primary" id="btn1"> Create My Resume</button>
+                            <button class="btn btn-primary" id="btn2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    height="30" fill="currentColor" class="bi bi-file-play-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6 5.883a.5.5 0 0 1 .757-.429l3.528 2.117a.5.5 0 0 1 0 .858l-3.528 2.117a.5.5 0 0 1-.757-.43V5.884z" />
+                                </svg> Watch Vedio</button>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-lg-4 col-xl-5">
+                        <img src="./Images/bodyimg.jpg" class="img-fluid" alt="Sample image">
+                    </div>
+                </div>
+            </div>
+        </section>
+

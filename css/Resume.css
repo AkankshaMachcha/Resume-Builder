@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body{
+    scroll-behavior: smooth;
+  }
+
+/* job list css start--------- */
+.joblist li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    color:#0d279b;
+    font-size: 30px;
+
+}
+.joblist a{
+    color:#0d279b;
+    text-decoration: none;
+    font-size: 20px;
+}
+.joblist a:hover{
+   
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    cursor: pointer;
+}
+.joblist a:active{
+    
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    cursor: pointer;
+    
+}
+.joblist{
+    text-align: center;
+    margin-top: 20px;
+}
+/* #all{
+    background-color: #0d279b;
+} */
+
+/* resumelist css staretd--------- */
+
+.resume{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.resume-col{
+    flex-basis:32%;
+    border-radius:20px;
+    margin-bottom:30px;
+    position:relative;
+    /* overflow: hidden; */
+    float:left;
+}
+.resume-col img{
+    width:50vh;
+    height:100%;
+}
+.layer{
+    background: transparent;
+    
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:5px;
+    left:0;
+    font-size: 30px;
+    
+}
+.layer a{
+    text-decoration: none;
+    background-color: white;
+    border:1px solid blue;
+    border-radius: 10px;
+    color: #5271ff;
+    padding:10px;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 3vh;
+}
+.layer:hover{
+    background:rgba(255, 255, 255, 0.5);
+}
+.row{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.resume-col:hover a{
+    text-decoration: none;
+    border-radius: 10px;
+    opacity: 1;
+    font-size: 3vh;
+    background-color: #0d279b;
+    color: white;
+
+}
+.layer:hover a{
+bottom: 49%;
+opacity: 1;
+}
+.joblist{
+    width: 100%;
+    color :#0d279b;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.web_dev,.software_engineer,.data_analyst,.data_engineer,.electrical_engineer,.it_manager{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+#web_dev,#software_engineer,#data_analyst,#data_engineer,#electrical_engineer,#it_manager{
+   padding-top: 10vh;
+   padding-bottom: 5vh;
+   font-weight: 900;
+   font-size: larger;
+}
+#web_dev{
+    padding-top: 0;
+    padding-bottom: 3vh;
+
+}
+#web_dev h1,#software_engineer h1,#data_analyst h1,#data_engineer h1,#electrical_engineer h1,#it_manager h1{
+    font-weight: 900;
+    color: #112467;
+}
+.resume-body{
+    margin-bottom: 10vh;
+}
+@media (max-width:480px) {
+    
+    .resume-col{
+        flex-basis: 90%;
+        border-radius:20px;
+        margin-bottom:30px;
+        position:relative;
+        overflow: hidden;
+        float:left;
+    }
+    .web_dev,.software_engineer,.data_analyst,.data_engineer,.electrical_engineer,.it_manager{
+        display: block;
+        z-index: 1000;
+        text-align: center;
+        align-items: center;
+    }
+} 
+
+
+@media (max-width:850px) {
+  
+    .resume-col{
+        flex-basis: 90%;
+        border-radius:20px;
+        margin-bottom:30px;
+        position:relative;
+    }
+   
+    .resume-col img{
+        max-width: 70%;
+        height: 20vh;
+    }
+    .web_dev,.software_engineer,.data_analyst,.data_engineer,.electrical_engineer,.it_manager{
+        display: block;
+        z-index: 1000;
+    }
+}

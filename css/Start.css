@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+#sec1 {
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #112467;
+    margin: 0;
+    font-size: 7vh;
+    font-weight: 900;
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+}
+/* }
+
+.single-service {
+    position: relative;
+    width: 80%;
+    height: 320px;
+    background-color: #1b379b;
+    box-sizing: border-box;
+    padding: 0 15px;
+    transition: .5s;
+    overflow: hidden;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 25px;
+} */
+
+/* .line {
+width: 150px;
+height: 3px;
+background: #000;
+margin: 0 auto 60px auto;
+/* } 
+ 
+.single-service p {
+    color: #fff;
+    font-size: 3vh;
+
+    padding-top: 10px;
+}
+
+.single-service h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 10px 0px;
+} */ 
+
+.social {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    margin: 5% auto;
+}
+
+.social i {
+    font-size: 30px;
+    padding: 15px;
+    color:#1b379b;
+}
+
+/* .single-service:hover {
+    /* box-shadow: 0 30px 35px rgba(255, 255, 255, 0.2); 
+} */
+
+/* .single-service span {
+    position: absolute;
+    top: 0;
+    left: -110%; 
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    transition: .7s;
+    transform: skewX(10deg);
+} */
+
+/* .single-service:hover span {
+    left: 110%;
+}  */
+
+@media (max-width:1000px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .single-service {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+
+    .wrapper h2 {
+        font-size: 30px;
+    }
+}
+
+/* button csss-------- */
+#cratebutton a {
+
+    font-size: 3vh;
+  background-color :#052097;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+}
+
+#cratebutton a:hover {
+
+    font-size: 3vh;
+    background-color :white;
+    color:#112467;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #112467;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cratebutton {
+    text-align: center;
+}
+/* }
+.single-service h3{
+    font-size: 4vh;
+    height: 30px;
+}
+.single-service p{
+    height: 60px;
+} */
+
+#cratebutton{
+  
+    margin-bottom: 10vh;
+}
+section{
+    height: 80vh;
+}
+.col-box{
+    background: #052097;
+    color: white;
+    margin: 5vh;
+    height: 70vh;
+    width: 90%;
+    padding: 3vh;
+    border-radius: 10px;
+    transition: .5s;
+    overflow: hidden; float: left;
+    margin: 0 10px;
+    position: relative;
+    margin: 6vh;
+}
+.col-box h3{
+
+    font-size: 5vh;
+    text-align: center;
+    font-weight: 900;
+}
+.col-box p{
+    font-size: 3vh;
+    margin-top: 20px;
+  
+}
+.col-box span {
+    position: absolute;
+top: 0;
+left: -110%;
+width: 100%;
+height: 100%;
+background: rgba(255, 255, 255, 0.7);
+transition: .7s;
+transform: skewX(10deg);
+} 
+.col-box:hover span {
+    left: 110%;
+} 

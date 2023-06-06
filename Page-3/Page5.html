@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+   
+   
+   
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <script src="./details-3_script.js"></script>
+        <link rel="stylesheet" href="./Page5.css">
+        <link rel="stylesheet" href="../dashboard.css">
+        
+</head>
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <!-- <div class="logo">
+                    <a hef="home.html"><img src="http://jskrishna.com/work/merkury/images/logo.png" alt="merkery_logo" class="hidden-xs hidden-sm">
+                        <img src="http://jskrishna.com/work/merkury/images/circle-logo.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div> -->
+                <div class="navi">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Personal Info</span></a></li>
+                        <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Profile Info</span></a></li>
+                        <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Skills</span></a></li>
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Experience</span></a></li>
+                        <li class="active"><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Education</span></a></li>
+                        <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Achievement</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas"
+                                        data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </header>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="user-dashboard">
+                        <div class="heading">
+                            <h1>Education</h1>
+                            <p>Add Information about your educational background.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center" style="margin-top: 3vh;">
+                    <div class="user-dashboard">
+                        <div class="user-dashboard-body form-group" id="instruction">
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <input type="text" placeholder="Enter your Degree" id="degree_0"
+                                        class="form form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" placeholder="Enter your Field of Study" id="field_0"
+                                        class="form form-control">
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <input type="text" placeholder="Enter the name of your Institute" id="school_0"
+                                        class="form form-control">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <input type="text" placeholder="Enter the City" id="city_0"
+                                        class="form form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Enter the State" id="state_0"
+                                        class="form form-control">
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <input type="text" placeholder="Enter your Grade" id="cgpa_0"
+                                        class="form form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <select name="Month" class="form-control" id="graduation_month_0">Month
+                                        <option value="select">--STARTING YEAR OF EDUCATION--</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+
+                                    <select name="graduation_year-1" id="graduation_year_0" class="select form-control">
+                                        <option value="select">--SELECT GRADUATION YEAR--</option>
+                                        <option value="2014">2014</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <br>
+                            <button onclick="addEducationFields()" class="btn" id="add">Add More details</button><br>
+
+
+                            <div class="d-flex justify-content-between" id="btn-2">
+
+                                <!-- <input type="submit" class="btn" placeholder="SUBMIT" id="sub" onclick="handleSubmit()"> -->
+                                <a href="#" onclick="handleSubmit()" class="btn">
+                                   Submit
+                                </a>
+                                <a href="/Page-2/Page4.html" class="btn">
+                                    PREVIOUS
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function handleSubmit() {
+            passvalue();
+            setTimeout(() => {
+                window.location.replace("../Page-5/Page6.html");
+            });
+        }
+    </script>
+</body>
+
+</html>

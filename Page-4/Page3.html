@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="./page3.css">
+   
+    <link rel="stylesheet" href="../dashboard.css">
+
+    <!-- <link rel="stylesheet" href="../index.css"> -->
+    <!-- <link rel="stylesheet" href="./details-4_style.css"> -->
+    <script src="./details-4_script.js"></script>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+
+<body class="home">
+    <div class="container-fluid display-table">
+        <div class="row display-table-row">
+            <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
+                <!-- <div class="logo">
+                    <a hef="home.html"><img src="http://jskrishna.com/work/merkury/images/logo.png" alt="merkery_logo" class="hidden-xs hidden-sm">
+                        <img src="http://jskrishna.com/work/merkury/images/circle-logo.png" alt="merkery_logo" class="visible-xs visible-sm circle-logo">
+                    </a>
+                </div> -->
+                <div class="navi">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Personal Info</span></a></li>
+                        <li><a href="#"><i class="fa fa-tasks" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Profile Info</span></a></li>
+                        <li class="active"><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Skills</span></a></li>
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Experience</span></a></li>
+                        <li><a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Education</span></a></li>
+                        <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span
+                                    class="hidden-xs hidden-sm">Achievement</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-11 display-table-cell v-align">
+                <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
+                <div class="row">
+                    <header>
+                        <div class="col-md-7">
+                            <nav class="navbar-default pull-left">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="offcanvas"
+                                        data-target="#side-menu" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </header>
+                </div>
+                <div class="user-dashboard d-flex align-content-center justify-content-center">
+                    <div class="heading">
+                        <h1>Skills</h1>
+                        <p>Heighlight some of your top skills</p>
+                    </div>
+                </div>
+                
+                <div class="form-row d-flex justify-content-left" style="display: block;">
+                    <div class="col-md-6">
+                        <div class="skill-tem form-group" id="instruction">
+                            <label for="skill_name_0" id="skill-name-label">Skill:</label>
+                            <input type="text" placeholder="Enter Skill" class="form form-control" id="skill_name_0">
+                            <label for="skill_description_0" id="skill-description-lane">Skill description:</label>
+                            <textarea rows="4" placeholder="Add Description" class="form form-control"
+                                id="skill_description_0"></textarea><br>
+                            <button onclick="addSkillField()" class="btn" id="add1">Add more skills</button><br>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="min-height: 10vh;">
+                        <div class="skill-tem form-group" id="instruction2">
+                            <label for="tech_skill_0">Technical Skill:</label>
+                            <input type="text" placeholder="Enter Technical Skill" class="form form-control"
+                                id="tech_skill_0"><br>
+                            <button onclick="addTechSkillField()" class="btn" id="add2">Add More Skills</button><br>
+                            <!-- <input type="submit" class="btn" id="sub" onclick="passvalue()"> -->
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="user-dashboard-body d-flex justify-content-around" style="display: block; margin: 3vh;">
+                    <div class="buttons">
+                        <button class="btn" id="sub" onclick="handleSubmit();" style="cursor:pointer;font-size: 3vh;margin-top: 2vh;padding: 9px;border-radius: 10px; "> SUBMIT </button>
+                    <!-- <a href="/Page-2/Page4.html" id="middlebtn" class="btn">
+                        SAVE & NEXT
+                    </a> -->
+                    <a href="/Page-1.2/Page2.html" class="btn">
+                        PREVIOUS
+                    </a>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function handleSubmit(){
+           passvalue();
+               setTimeout(() => {
+                   window.location.replace("/Page-2/Page4.html");
+               });
+        }
+   </script>
+</body>
+
+</html>

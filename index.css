@@ -1,0 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+.main-clr{
+  color: #112467;
+}
+.btn-clr{
+  color: #3346d3;
+}
+.font{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Varela Round', sans-serif;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Builder</title>
+        <link rel="stylesheet" href="details-6_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">Resume Builder</label>
+                <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="/index.html#temp">Template</a></li>
+                  <li><a href="Examplepage.html">Example</a></li>
+                  <li><a href="/index.html#sec1">Why Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="/Page-1/page-1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="/Page-1.2/details-6.html" id="summary">PROFILE INFO</a>
+            </div>
+            <div>
+                <a href="/Page-4/details-4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="/Page-2/details-2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="/Page-3/details-3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="/Page-5/details-5.html" id="summary2">ACHIEVEMENT</a>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="instruction">
+            <h1>PROFILE</h1>
+            <p>Write a Short Information About Yourself.</p><br><br>
+            <form onsubmit="return validateForm()">
+                <textarea rows="6" cols="50" id="shortinfo" placeholder="Write a short Information about yourself"></textarea>
+                <p class="error" id="summary_error"></p>
+                <input type="submit" id="sub" onclick="passvalue()" class="btn">
+            </form>
+            <br><br>
+            <a href="/Page-4/details-4.html" class="btn">
+                SAVE & NEXT
+            </a> 
+            <a href="/Page-1/page-1.html" class="btn">
+                PREVIOUS
+            </a>
+        </div>
+        <br><br><br><br>
+    <script src="details-6_script.js"></script> 
+    </body>
+</html>

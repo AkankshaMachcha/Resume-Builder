@@ -1,0 +1,82 @@
+
+.user-dashboard-body .buttons a  {
+    background-color: #112467;
+    color: white;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.user-dashboard-body .buttons button  {
+    background-color: #112467;
+    color: white;
+    /* padding: 10px;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    border-radius: 10px; */
+}
+
+
+.user-dashboard-body .buttons a:hover {
+    background-color: white;
+    color: #112467;
+    border: 2px solid #112467;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+}
+.user-dashboard-body .buttons button:hover{
+    background-color: white;
+    color: #112467;
+}
+
+.user-dashboard-body #middlebtn{
+    background-color: white;
+    color:#112467;
+    border: 2px solid #112467;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    border-radius: 10px;
+}
+.user-dashboard-body #middlebtn:hover{
+    background-color:#112467;
+    color:white;
+}
+.form-group {
+    height: auto;
+    width: 100%;
+
+}
+.form-group input{
+    width: 90%;
+    height: 40px;
+    margin: 2vh;
+    border: 2px solid #112467;
+    border-radius: 10px;
+}
+.form-group textarea{
+    margin: 2vh;
+    border: 2px solid #112467;
+    border-radius: 10px;
+    width: 90%;
+}
+.form-group button{
+    padding: 10px;
+    color: white;
+    background-color: #112467;
+    
+}
+.skill-tem{
+    width: 90%;
+    background-color: white;
+    color: #112467;
+    margin: 3vh;
+    padding: 3vh;
+    border-radius: 25px;
+    min-height: 300px;
+
+}

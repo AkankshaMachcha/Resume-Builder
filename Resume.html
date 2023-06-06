@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Resume.css">
+    <script src="./js/main.js"></script>
+    <style>
+        .reveal {
+            position: relative;
+            transform: translateY(150px);
+            opacity: 0;
+            transition: 1s all ease;
+        }
+
+        .reveal.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+      
+        /*  */
+    </style>
+
+</head>
+
+<body>
+    <div class="header h-20vh">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="navbar-brand" style="margin-left: 3vh; margin-top: 2vh;" href="#">
+                    <img src="./Images/ResumeMakerLogo.png" alt="Logo" width="50" height="40"
+                        class="d-inline-block align-text-center">
+                    <h3 class="my-auto main-clr" style="display: inline;">Resume.Maker</h3>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="active" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="TemplateEx.html">Template</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled line" href="#">|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="login" href="login.html">Sign In</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" id="signup" href="register.html">Sign Up</a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="progress">
+        <span id="progress-value">&#x1F815;</span>
+    </div>
+    <div class="resume-body" id="all">
+        <div id="maindon">
+            <div class="joblistmenu">
+                <ul class="joblist">
+                    <li><a href="#all">All</a></li>
+                    <li><a href="#web_dev">Web Developer</a></li>
+                    <li><a href="#software_engineer">Software Engineer</a></li>
+                    <li><a href="#data_analyst">Data Analyst</a></li>
+                    <li><a href="#data_engineer">Data Engineer</a></li>
+                    <li><a href="#electrical_engineer">Electrical Engineer</a></li>
+                    <li><a href="#it_manager">IT Manager</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <section class="resume">
+            <div class="container mx-auto web_dev ">
+                <div id="web_dev" class="joblist">
+                    <h1>Web Developer</h1>
+                </div>
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/Web Dev/resume_1.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=19EuDq6pfSGkeVrKpLR1v7hgrI9h9g3bF">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Web Dev/resume_2.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1AofwX8ha6mP7FIvmFFlJXX7QPo-z6YUR">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Web Dev/resume_3.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1ApENjEjO4DZQEmrUbXfOIuekMR0n8YXx">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="software_engineer">
+                <div id="software_engineer" class="joblist">
+                    <h1>Software Engineer</h1>
+                </div>
+
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/Software Engineer/resume_1.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/software-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col" id="center">
+                        <img src="images/Software Engineer/resume_2.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/python-developer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Software Engineer/resume_3.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/entrylevel-software-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume">
+            <div class="data_analyst">
+                <div id="data_analyst" class="joblist">
+                    <h1>Data Analyst</h1>
+                </div>
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/Data Analyst/resume_1.png" alt="">
+                        <div class="layer">
+                            <a href="https://d25zcttzf44i59.cloudfront.net/data-analyst-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Data Analyst/resume_2.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/sql-data-analyst-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Data Analyst/resume_5.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/analytics-manager-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="data_engineer">
+                <div id="data_engineer" class="joblist">
+                    <h1>Data Engineer</h1>
+                </div>
+
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/Data Engineer/resume_1.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/data-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col" id="center">
+                        <img src="images/Data Engineer/resume_2.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/big-data-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Data Engineer/resume_3.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/entrylevel-data-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="resume">
+            <div class="electrical_engineer">
+                <div id="electrical_engineer" class="joblist">
+                    <h1>Electrical Engineer</h1>
+                </div>
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/Electrical Engineer/resume_1.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/electrical-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Electrical Engineer/resume_2.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/senior-electrical-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/Electrical Engineer/resume_3.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/entry-level-electrical-engineer-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="it_manager">
+                <div id="it_manager" class="joblist">
+                    <h1>IT Manager</h1>
+                </div>
+
+                <div class="row">
+                    <div class="resume-col">
+                        <img src="images/IT Manager/resume_1.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://drive.google.com/file/d/14iT3_4WrPCsYOMfigKofUppjj_S7zbce/view?usp=sharing">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col" id="center">
+                        <img src="images/IT Manager/resume_5.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/it-program-manager-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                    <div class="resume-col">
+                        <img src="images/IT Manager/resume_6.png" alt="">
+                        <div class="layer">
+                            <a
+                                href="https://d25zcttzf44i59.cloudfront.net/it-services-manager-resume-example.pdf">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+
+    <div class="footer my-auto mx-auto"
+        style="margin-top: 15vh;height: 20vh;background-color: #112467; color: white;font-size: 3vh; font-weight: 800;">
+        <div class="mx-auto my-auto row d-flex justify-content-center" style="padding-top: 8vh; width: 80vw;">
+            <div class="col-1" style="text-align: center; margin-left: -12px;margin-right: 8px; padding-left: -10px;">
+                <p>Pricing</p>
+            </div>
+            <div class="col-3" style="text-align: center;">
+                <p>Terms of Service</p>
+            </div>
+            <div class="col-3" style="text-align: center;">
+                <p>
+                    Legal Documents
+                </p>
+            </div>
+            <div class="col-2" style="text-align: center;">
+                <p>Privacy Policy</p>
+            </div>
+            <div class="col-3" style="text-align: center;">
+                <p>Right of Withdrawal</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+        // const mybutton = document.getElementById("myBtn");
+        // window.onscroll = function () { scrollFunction() };
+
+        // function scrollFunction() {
+        //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        //         mybutton.style.display = "block";
+        //     } else {
+        //         mybutton.style.display = "none";
+        //     }
+        // }
+        // mybutton.addEventListener('click', () => {
+        //     window.scrollTo({
+        //         top: 0,
+        //         behavior: 'smooth',
+        //         transition : '.3s'
+        //     })
+        // })
+
+    </script>
+</body>
+
+</html>

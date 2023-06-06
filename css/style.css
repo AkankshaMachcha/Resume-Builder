@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+.navbar {
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -1px 5px 1px rgba(0, 0, 0, 0.75);
+    background-color: #fff;
+    width: 100%;
+
+}
+
+body {
+   width: 100%;
+   overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand h3 {
+    color: #112467;
+    margin-top: 2vh;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    margin-right: 3vw;
+}
+
+.navbar-nav li {
+    margin: 10px;
+
+}
+
+.navbar-nav li a {
+    color: rgb(100, 96, 96);
+    font-weight: 700;
+    font-size: 3vh;
+}
+
+.navbar-nav li a:hover {
+    color: #3346d3;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.navbar-nav li #active {
+    color: #112467;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.navbar-nav li .line {
+    color: #112467;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.navbar-nav li #login,
+.navbar-nav li #signup:hover,
+.body-text #btn1,
+.body-text #btn2:hover,
+.fea-body #btn1:hover,
+.subscribe button:hover,
+.guide button:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #112467;
+    color: #112467;
+    border-radius: 10px;
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+
+
+}
+.footer {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer p:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+.navbar-nav li #login:hover,
+.navbar-nav li #signup,
+.body-text #btn2,
+.body-text #btn1:hover,
+.fea-body #btn1,
+.subscribe button,
+.guide button {
+    text-decoration: none;
+    background-color: #112467;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 768px) {
+    .features , .body,.guide ,.blocks{
+        padding: 10vw;
+    }
+    
+    .navbar-nav li #signup,
+    .navbar-nav li #login {
+        width: 40%;
+    }
+    .body{
+        height: 100vh;
+    }
+
+    .body-text {
+        padding: 5vw;
+        margin-left: 5vh;
+    }
+
+    .body-text #btn2 {
+        margin-top: 20px;
+    }
+    .body{
+        z-index: 1;
+    }
+    .features{
+        height: 100vh;
+      background-image: none;
+        z-index: 1;
+    }
+    .body img{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+   }
+   .footer  p{
+    margin-left: 0;
+    padding-left: 0%;
+   }
+    
+   
+}
+
+@media (max-width: 600px) {
+    .guide , .features , .body,.header{
+        display: block;
+        overflow:auto;
+        height: auto;
+    }
+    .template .swiper-container img{
+        height: 250px;
+        width: 200px;
+    }
+
+  }
+
+
+.body img {
+    height: 90%;
+    width: 80%;
+}
+/* 
+.anibody span {
+    position: absolute;
+    bottom: -50px;
+    background: transparent;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: inset 0 0 10px #525fc8;
+    /* box-shadow: inset 0 0 10px rgba(225, 225, 225, 0.5); 
+    animation: animate 4s linear infinite;
+}
+.anibody span:before {
+    content: "";
+    position: absolute;
+    transform: scale(0.25) translate(-70%, -70%);
+    background: radial-gradient(#ffffff, transparent);
+    border-radius: 50%;
+}
+@keyframes animation {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-700%);
+        opacity: 1;
+    }
+} */
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: #001a2e;
+}

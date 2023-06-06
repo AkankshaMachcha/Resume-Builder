@@ -1,0 +1,61 @@
+.user-dashboard .heading P {
+    padding-bottom: 0;
+}
+
+.user-dashboard textarea {
+    border-radius: 25px;
+    border: 1px solid #112467;
+    padding: 5vh;
+}
+
+.user-dashboard textarea:hover {
+    border-radius: 25px;
+    border: 2px solid #0d172e;
+}
+
+.user-dashboard .buttons a  {
+    background-color: #112467;
+    color: white;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.user-dashboard .buttons button  {
+    background-color: #112467;
+    color: white;
+    /* padding: 10px;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    border-radius: 10px; */
+}
+
+.user-dashboard .buttons a:hover {
+    background-color: white;
+    color: #112467;
+    border: 2px solid #112467;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    /* margin-top: 10px; */
+    border-radius: 10px;
+}
+.user-dashboard .buttons button:hover{
+    background-color: white;
+    color: #112467;
+}
+
+.user-dashboard-body #middlebtn{
+    background-color: white;
+    color:#112467;
+    border: 2px solid #112467;
+    padding: 10px;
+    /* margin-left: 3vh; */
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    border-radius: 10px;
+}
+.user-dashboard-body #middlebtn:hover{
+    background-color:#112467;
+    color:white;
+}
